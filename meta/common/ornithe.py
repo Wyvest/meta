@@ -1,6 +1,6 @@
 from os.path import join
 
-from . import fabric, quilt
+from . import fabric
 
 BASE_DIR = "ornithe"
 
@@ -26,13 +26,5 @@ LOADERS = {
         "maven": "https://maven.fabricmc.net",
         "jars_dir": fabric.JARS_DIR,
         "installer_info_dir": fabric.INSTALLER_INFO_DIR,
-    },
-    "quilt": {
-        "uid": "net.ornithemc.quilt-loader",
-        "name": "Ornithe Quilt Loader",
-        "prefix": "loader",
-        "maven": "https://maven.quiltmc.org/repository/release",
-        "jars_dir": quilt.JARS_DIR,
-        "installer_info_dir": quilt.INSTALLER_INFO_DIR,
     },
 }

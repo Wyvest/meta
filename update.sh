@@ -78,7 +78,7 @@ if [ "${DEPLOY_TO_GIT}" = true ]; then
     launcher_git add net.neoforged/* || fail_out
     launcher_git add net.fabricmc.fabric-loader/* net.fabricmc.intermediary/* || fail_out
     launcher_git add org.quiltmc.quilt-loader/* || fail_out # TODO: add Quilt hashed, once it is actually used
-    launcher_git add net.ornithemc.calamus-intermediary/* net.ornithemc.fabric-loader/* net.ornithemc.quilt-loader/* || fail_out
+    launcher_git add net.ornithemc.calamus-intermediary/* net.ornithemc.fabric-loader/* || fail_out
     launcher_git add com.mumfrey.liteloader/* || fail_out
     launcher_git add net.minecraft.java/* net.adoptium.java/* com.azul.java/* com.ibm.java/* || fail_out
 
